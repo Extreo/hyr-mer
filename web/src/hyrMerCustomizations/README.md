@@ -18,7 +18,7 @@ hyrMerCustomizations/
 |--------|-----|-------------|
 | Topbar-logo | `components/HyrMerTopbarLogo.js` | Wrapper runt `LinkedLogo` |
 | Logo-storlek | `styles/topbar.module.css` | Desktop: fast höjd, mobil: max-höjd |
-| Design-tokens | `styles/hyrMerCustomizations.css` | `--hyrMerCustomizations-logo-height-*` |
+| Design-tokens | `styles/hyrMerCustomizations.css` | `--hyrmer-logo-height-*` |
 
 ## Console vs kod
 

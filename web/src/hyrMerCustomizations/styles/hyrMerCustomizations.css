@@ -4,7 +4,7 @@
  */
 :root {
   /* Desktop: faktisk höjd – bredd skalar automatiskt (aspect ratio) */
-  --hyrMerCustomizations-logo-height-desktop: 60px;
+  --hyrmer-logo-height-desktop: 60px;
   /* Mobil: önskad höjd; bilden krymper om utrymmet inte räcker */
-  --hyrMerCustomizations-logo-height-mobile: 36px;
+  --hyrmer-logo-height-mobile: 36px;
 }
