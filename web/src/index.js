@@ -20,7 +20,7 @@ import { loadableReady } from '@loadable/component';
 // This ensures that the styles in marketplaceDefaults.css are included
 // as first ones in the final build CSS build file.
 import './styles/marketplaceDefaults.css';
-import './hyrMer/styles/hyrMer.css';
+import './hyrMerCustom/styles/hyrMerCustom.css';
 
 // Configs and store setup
 import appSettings from './config/settings';

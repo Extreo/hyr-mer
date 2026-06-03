@@ -1,6 +1,6 @@
 /**
- * Topbar-logo – HyrMer storlek ovanpå Console/mall.
- * Justera --hyrMer-logo-height-* i hyrMer.css.
+ * Topbar-logo – HyrMer-anpassningar ovanpå Console/mall.
+ * Justera --hyrMerCustom-logo-height-* i hyrMerCustom.css.
  */
 
 .logoWrapperDesktop,
@@ -11,8 +11,7 @@
 }
 
 .logoImageDesktop {
-  /* Fast höjd; bredd följer bildens proportioner */
-  height: var(--hyrMer-logo-height-desktop) !important;
+  height: var(--hyrMerCustom-logo-height-desktop) !important;
   max-height: none !important;
   width: auto !important;
   max-width: none !important;
@@ -21,9 +20,8 @@
 }
 
 .logoImageMobile {
-  /* Krymp vid behov inom topbar-utrymme, behåll proportioner */
   height: auto !important;
-  max-height: var(--hyrMer-logo-height-mobile) !important;
+  max-height: var(--hyrMerCustom-logo-height-mobile) !important;
   width: auto !important;
   max-width: min(calc(100vw - 132px), 100%) !important;
   object-fit: contain;

@@ -15,7 +15,7 @@ import {
 
 import TopbarSearchForm from '../TopbarSearchForm/TopbarSearchForm';
 import CustomLinksMenu from './CustomLinksMenu/CustomLinksMenu';
-import HyrMerTopbarLogo from '../../../../hyrMer/components/HyrMerTopbarLogo';
+import HyrMerTopbarLogo from '../../../../hyrMerCustom/components/HyrMerTopbarLogo';
 
 import css from './TopbarDesktop.module.css';
 
