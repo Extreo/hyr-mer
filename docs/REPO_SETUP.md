@@ -18,14 +18,14 @@ Remove-Item -Recurse -Force web-template
 Skapa ett **nytt tomt repo** (inte Fork). Sedan:
 
 ```powershell
-git remote add origin https://github.com/Extreo/hyrmer.git
+git remote add origin https://github.com/Extreo/hyr-mer.git
 git push -u origin main
 ```
 
 Om `origin` redan finns med gammalt användarnamn:
 
 ```powershell
-git remote set-url origin https://github.com/Extreo/hyrmer.git
+git remote set-url origin https://github.com/Extreo/hyr-mer.git
 ```
 
 ## Felsökning

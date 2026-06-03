@@ -29,6 +29,6 @@ Se `web/src/hyrmer/README.md`.
 
 ## Git / GitHub
 
-Repo: [github.com/Extreo/hyrmer](https://github.com/Extreo/hyrmer) (efter push).
+Repo: [github.com/Extreo/hyr-mer](https://github.com/Extreo/hyr-mer) (efter push).
 
 Se `docs/REPO_SETUP.md` för remote och push.
