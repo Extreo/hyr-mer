@@ -22,7 +22,7 @@ import { getSearchPageResourceLocatorStringParams } from '../../SearchPage/Searc
 import MenuIcon from './MenuIcon';
 import SearchIcon from './SearchIcon';
 import TopbarSearchForm from './TopbarSearchForm/TopbarSearchForm';
-import HyrMerTopbarLogo from '../../../hyrMerCustom/components/HyrMerTopbarLogo';
+import HyrMerTopbarLogo from '../../../hyrMerCustomizations/components/HyrMerTopbarLogo';
 import TopbarMobileMenu from './TopbarMobileMenu/TopbarMobileMenu';
 import TopbarDesktop from './TopbarDesktop/TopbarDesktop';
 
