@@ -6,7 +6,6 @@ import { ACCOUNT_SETTINGS_PAGES } from '../../../../routing/routeConfiguration';
 import {
   Avatar,
   InlineTextButton,
-  LinkedLogo,
   Menu,
   MenuLabel,
   MenuContent,
@@ -16,6 +15,7 @@ import {
 
 import TopbarSearchForm from '../TopbarSearchForm/TopbarSearchForm';
 import CustomLinksMenu from './CustomLinksMenu/CustomLinksMenu';
+import HyrMerTopbarLogo from '../../../../hyrmer/components/HyrMerTopbarLogo';
 
 import css from './TopbarDesktop.module.css';
 
@@ -204,7 +204,7 @@ const TopbarDesktop = props => {
       className={classes}
       aria-label={intl.formatMessage({ id: 'TopbarDesktop.screenreader.topbarNavigation' })}
     >
-      <LinkedLogo
+      <HyrMerTopbarLogo
         id="logo-topbar-desktop"
         className={css.logoLink}
         layout="desktop"

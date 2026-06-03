@@ -1,0 +1,10 @@
+/**
+ * Globala HyrMer-design-tokens.
+ * Importeras efter marketplaceDefaults.css (se src/index.js).
+ */
+:root {
+  /* Desktop: faktisk höjd – bredd skalar automatiskt (aspect ratio) */
+  --hyrmer-logo-height-desktop: 60px;
+  /* Mobil: önskad höjd; bilden krymper om utrymmet inte räcker (max-height + max-width) */
+  --hyrmer-logo-height-mobile: 36px;
+}

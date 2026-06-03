@@ -14,7 +14,6 @@ import {
   Button,
   IconArrowHead,
   LimitedAccessBanner,
-  LinkedLogo,
   Modal,
   ModalMissingInformation,
 } from '../../../components';
@@ -23,6 +22,7 @@ import { getSearchPageResourceLocatorStringParams } from '../../SearchPage/Searc
 import MenuIcon from './MenuIcon';
 import SearchIcon from './SearchIcon';
 import TopbarSearchForm from './TopbarSearchForm/TopbarSearchForm';
+import HyrMerTopbarLogo from '../../../hyrmer/components/HyrMerTopbarLogo';
 import TopbarMobileMenu from './TopbarMobileMenu/TopbarMobileMenu';
 import TopbarDesktop from './TopbarDesktop/TopbarDesktop';
 
@@ -358,7 +358,7 @@ const TopbarComponent = props => {
           />
           {notificationDot}
         </Button>
-        <LinkedLogo
+        <HyrMerTopbarLogo
           id="logo-topbar-mobile"
           layout={'mobile'}
           alt={intl.formatMessage({ id: 'Topbar.logoIcon' })}

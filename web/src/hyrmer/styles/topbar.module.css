@@ -1,0 +1,31 @@
+/**
+ * Topbar-logo – HyrMer storlek ovanpå Console/mall.
+ * Justera --hyrmer-logo-height-* i hyrmer.css.
+ */
+
+.logoWrapperDesktop,
+.logoWrapperMobile {
+  width: auto !important;
+  height: auto !important;
+  max-width: none !important;
+}
+
+.logoImageDesktop {
+  /* Fast höjd; bredd följer bildens proportioner */
+  height: var(--hyrmer-logo-height-desktop) !important;
+  max-height: none !important;
+  width: auto !important;
+  max-width: none !important;
+  object-fit: contain;
+  object-position: left center;
+}
+
+.logoImageMobile {
+  /* Krymp vid behov inom topbar-utrymme, behåll proportioner */
+  height: auto !important;
+  max-height: var(--hyrmer-logo-height-mobile) !important;
+  width: auto !important;
+  max-width: min(calc(100vw - 132px), 100%) !important;
+  object-fit: contain;
+  object-position: left center;
+}
