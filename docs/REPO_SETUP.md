@@ -1,46 +1,19 @@
 # Git-repo i HyrMer-roten (alternativ B)
 
-Kör stegen när **ingen process** använder `web-template/` (stoppa `yarn run dev`, stäng ev. filutforskare i mappen).
+Omstruktureringen är genomförd: git ligger i **HyrMer-roten**, appen i **`web/`**, Sharetribe-`origin` är borttagen.
 
-## 1. Byt namn på app-mappen
+## Rensa gammal mapp (när inget låser filer)
 
-Rekommenderat namn: **`web`** (kort, standard i monorepos).
-
-```powershell
-cd D:\Dev\Repos\HyrMer
-Rename-Item -Path web-template -NewName web
-```
-
-## 2. Flytta git till repo-roten
+`web-template/` är en kopia kvar efter flytt (mappen kunde inte döpas om medan den var låst). Ta bort den när dev-server/IDE är stängd:
 
 ```powershell
 cd D:\Dev\Repos\HyrMer
-Move-Item -Path web\.git -Destination .git
-git add -A
-git status
+Remove-Item -Recurse -Force web-template
 ```
 
-Git visar filer som flyttats till `web/`. Committa:
+`node_modules` kopierades inte till `web/` – kör antingen `yarn install` i `web/` eller flytta `web-template\node_modules` till `web\node_modules` innan du raderar.
 
-```powershell
-git config user.email "din@email.se"
-git config user.name "Ditt Namn"
-git commit -m "Restructure: move marketplace app into web/ for monorepo"
-```
-
-## 3. Koppla bort Sharetribe GitHub (origin)
-
-```powershell
-git remote remove origin
-```
-
-Valfritt för framtida mall-uppdateringar:
-
-```powershell
-git remote add upstream https://github.com/sharetribe/web-template.git
-```
-
-## 4. Push till ditt GitHub-konto
+## Push till ditt GitHub-konto
 
 Skapa ett **nytt tomt repo** (inte Fork). Sedan:
 
