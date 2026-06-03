@@ -29,4 +29,6 @@ Se `web/src/hyrmer/README.md`.
 
 ## Git / GitHub
 
-Se `docs/REPO_SETUP.md` för flytt till repo-root och koppling till eget GitHub-konto.
+Repo: [github.com/Extreo/hyrmer](https://github.com/Extreo/hyrmer) (efter push).
+
+Se `docs/REPO_SETUP.md` för remote och push.
