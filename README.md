@@ -25,7 +25,7 @@ yarn run dev
 
 ## HyrMer-specifik kod
 
-Se `web/src/hyrmer/README.md`.
+Se `web/src/hyrMer/README.md`.
 
 ## Git / GitHub
 
