@@ -9,7 +9,6 @@ HyrMer/
   README.md           ← detta repo
   web/                ← Sharetribe-baserad marknadsplats (React + Express SSR)
   docs/               ← projektdokumentation (valfritt)
-  web-template.zip    ← arkiv, ingår inte i git
 ```
 
 ## Kom igång (webbappen)
